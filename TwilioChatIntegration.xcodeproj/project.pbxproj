@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EF3CB81E8238DD00CB4F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CB71E8238DD00CB4F75 /* AppDelegate.swift */; };
+		82EF3CBD1E8238DD00CB4F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CBB1E8238DD00CB4F75 /* Main.storyboard */; };
+		82EF3CBF1E8238DD00CB4F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CBE1E8238DD00CB4F75 /* Assets.xcassets */; };
+		82EF3CC21E8238DD00CB4F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CC01E8238DD00CB4F75 /* LaunchScreen.storyboard */; };
+		82EF3CE11E8239AB00CB4F75 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CCC1E8239AB00CB4F75 /* SLKInputAccessoryView.m */; };
+		82EF3CE21E8239AB00CB4F75 /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CCD1E8239AB00CB4F75 /* SLKTextInput+Implementation.m */; };
+		82EF3CE31E8239AB00CB4F75 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CD01E8239AB00CB4F75 /* SLKTextInputbar.m */; };
+		82EF3CE41E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CD21E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m */; };
+		82EF3CE51E8239AB00CB4F75 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CD41E8239AB00CB4F75 /* SLKTextView.m */; };
+		82EF3CE61E8239AB00CB4F75 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CD61E8239AB00CB4F75 /* SLKTextViewController.m */; };
+		82EF3CE71E8239AB00CB4F75 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CD91E8239AB00CB4F75 /* SLKTypingIndicatorView.m */; };
+		82EF3CE81E8239AB00CB4F75 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CDC1E8239AB00CB4F75 /* UIResponder+SLKAdditions.m */; };
+		82EF3CE91E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CDE1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m */; };
+		82EF3CEA1E8239AB00CB4F75 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CE01E8239AB00CB4F75 /* UIView+SLKAdditions.m */; };
+		82EF3CF41E82430300CB4F75 /* SLKInputAccessoryView.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CCB1E8239AB00CB4F75 /* SLKInputAccessoryView.h */; };
+		82EF3CF51E82430300CB4F75 /* SLKInputAccessoryView.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CCC1E8239AB00CB4F75 /* SLKInputAccessoryView.m */; };
+		82EF3CF61E82430300CB4F75 /* SLKTextInput+Implementation.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CCD1E8239AB00CB4F75 /* SLKTextInput+Implementation.m */; };
+		82EF3CF71E82430300CB4F75 /* SLKTextInput.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CCE1E8239AB00CB4F75 /* SLKTextInput.h */; };
+		82EF3CF81E82430300CB4F75 /* SLKTextInputbar.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CCF1E8239AB00CB4F75 /* SLKTextInputbar.h */; };
+		82EF3CF91E82430300CB4F75 /* SLKTextInputbar.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD01E8239AB00CB4F75 /* SLKTextInputbar.m */; };
+		82EF3CFA1E82430300CB4F75 /* SLKTextView+SLKAdditions.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD11E8239AB00CB4F75 /* SLKTextView+SLKAdditions.h */; };
+		82EF3CFB1E82430300CB4F75 /* SLKTextView+SLKAdditions.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD21E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m */; };
+		82EF3CFC1E82430300CB4F75 /* SLKTextView.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD31E8239AB00CB4F75 /* SLKTextView.h */; };
+		82EF3CFD1E82430300CB4F75 /* SLKTextView.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD41E8239AB00CB4F75 /* SLKTextView.m */; };
+		82EF3CFE1E82430300CB4F75 /* SLKTextViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD51E8239AB00CB4F75 /* SLKTextViewController.h */; };
+		82EF3CFF1E82430300CB4F75 /* SLKTextViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD61E8239AB00CB4F75 /* SLKTextViewController.m */; };
+		82EF3D001E82430300CB4F75 /* SLKTypingIndicatorProtocol.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD71E8239AB00CB4F75 /* SLKTypingIndicatorProtocol.h */; };
+		82EF3D011E82430300CB4F75 /* SLKTypingIndicatorView.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD81E8239AB00CB4F75 /* SLKTypingIndicatorView.h */; };
+		82EF3D021E82430300CB4F75 /* SLKTypingIndicatorView.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CD91E8239AB00CB4F75 /* SLKTypingIndicatorView.m */; };
+		82EF3D031E82430300CB4F75 /* SLKUIConstants.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDA1E8239AB00CB4F75 /* SLKUIConstants.h */; };
+		82EF3D041E82430300CB4F75 /* UIResponder+SLKAdditions.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDB1E8239AB00CB4F75 /* UIResponder+SLKAdditions.h */; };
+		82EF3D051E82430300CB4F75 /* UIResponder+SLKAdditions.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDC1E8239AB00CB4F75 /* UIResponder+SLKAdditions.m */; };
+		82EF3D061E82430300CB4F75 /* UIScrollView+SLKAdditions.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDD1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.h */; };
+		82EF3D071E82430300CB4F75 /* UIScrollView+SLKAdditions.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDE1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m */; };
+		82EF3D081E82430300CB4F75 /* UIView+SLKAdditions.h in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CDF1E8239AB00CB4F75 /* UIView+SLKAdditions.h */; };
+		82EF3D091E82430300CB4F75 /* UIView+SLKAdditions.m in Resources */ = {isa = PBXBuildFile; fileRef = 82EF3CE01E8239AB00CB4F75 /* UIView+SLKAdditions.m */; };
+		82EF3D0F1E8247C000CB4F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3CB91E8238DD00CB4F75 /* ViewController.swift */; };
+		82EF3D101E8247D800CB4F75 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D0A1E8244EF00CB4F75 /* MessageViewController.swift */; };
+		82EF3D201E824B8000CB4F75 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D161E824B8000CB4F75 /* Message.m */; };
+		82EF3D211E824B8000CB4F75 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D181E824B8000CB4F75 /* MessageTableViewCell.m */; };
+		82EF3D221E824B8000CB4F75 /* MessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D1A1E824B8000CB4F75 /* MessageTextView.m */; };
+		82EF3D231E824B8000CB4F75 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D1C1E824B8000CB4F75 /* MessageViewController.m */; };
+		82EF3D241E824B8000CB4F75 /* TypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D1E1E824B8000CB4F75 /* TypingIndicatorView.m */; };
+		82EF3D311E824D4A00CB4F75 /* NSString+LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2A1E824D4900CB4F75 /* NSString+LoremIpsum.m */; };
+		82EF3D321E824D4A00CB4F75 /* SLKTextInputbarStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2C1E824D4900CB4F75 /* SLKTextInputbarStub.m */; };
+		82EF3D331E824D4A00CB4F75 /* SLKTextViewControllerStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2E1E824D4A00CB4F75 /* SLKTextViewControllerStub.m */; };
+		82EF3D341E824D4A00CB4F75 /* SLKTextViewStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D301E824D4A00CB4F75 /* SLKTextViewStub.m */; };
+		82EF3D371E824E1500CB4F75 /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D361E824E1500CB4F75 /* LoremIpsum.m */; };
+		82EF3D381E82588800CB4F75 /* LoremIpsum.h in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D351E824E1100CB4F75 /* LoremIpsum.h */; };
+		82EF3D391E82588800CB4F75 /* NSString+LoremIpsum.h in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D291E824D4900CB4F75 /* NSString+LoremIpsum.h */; };
+		82EF3D3A1E82588800CB4F75 /* SLKTextInputbarStub.h in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2B1E824D4900CB4F75 /* SLKTextInputbarStub.h */; };
+		82EF3D3B1E82588800CB4F75 /* SLKTextViewControllerStub.h in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2D1E824D4900CB4F75 /* SLKTextViewControllerStub.h */; };
+		82EF3D3C1E82588800CB4F75 /* SLKTextViewStub.h in Sources */ = {isa = PBXBuildFile; fileRef = 82EF3D2F1E824D4A00CB4F75 /* SLKTextViewStub.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82EF3CB41E8238DD00CB4F75 /* TwilioChatIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioChatIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EF3CB71E8238DD00CB4F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82EF3CB91E8238DD00CB4F75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82EF3CBC1E8238DD00CB4F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82EF3CBE1E8238DD00CB4F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EF3CC11E8238DD00CB4F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82EF3CC31E8238DD00CB4F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EF3CCB1E8239AB00CB4F75 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		82EF3CCC1E8239AB00CB4F75 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		82EF3CCD1E8239AB00CB4F75 /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		82EF3CCE1E8239AB00CB4F75 /* SLKTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
+		82EF3CCF1E8239AB00CB4F75 /* SLKTextInputbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInputbar.h; sourceTree = "<group>"; };
+		82EF3CD01E8239AB00CB4F75 /* SLKTextInputbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextInputbar.m; sourceTree = "<group>"; };
+		82EF3CD11E8239AB00CB4F75 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		82EF3CD21E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		82EF3CD31E8239AB00CB4F75 /* SLKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextView.h; sourceTree = "<group>"; };
+		82EF3CD41E8239AB00CB4F75 /* SLKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextView.m; sourceTree = "<group>"; };
+		82EF3CD51E8239AB00CB4F75 /* SLKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextViewController.h; sourceTree = "<group>"; };
+		82EF3CD61E8239AB00CB4F75 /* SLKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewController.m; sourceTree = "<group>"; };
+		82EF3CD71E8239AB00CB4F75 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		82EF3CD81E8239AB00CB4F75 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		82EF3CD91E8239AB00CB4F75 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		82EF3CDA1E8239AB00CB4F75 /* SLKUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKUIConstants.h; sourceTree = "<group>"; };
+		82EF3CDB1E8239AB00CB4F75 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		82EF3CDC1E8239AB00CB4F75 /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		82EF3CDD1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		82EF3CDE1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		82EF3CDF1E8239AB00CB4F75 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		82EF3CE01E8239AB00CB4F75 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		82EF3D0A1E8244EF00CB4F75 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		82EF3D111E8248E600CB4F75 /* TwilioChatIntegration-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TwilioChatIntegration-Bridging-Header.h"; sourceTree = "<group>"; };
+		82EF3D151E824B8000CB4F75 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		82EF3D161E824B8000CB4F75 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		82EF3D171E824B8000CB4F75 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		82EF3D181E824B8000CB4F75 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		82EF3D191E824B8000CB4F75 /* MessageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTextView.h; sourceTree = "<group>"; };
+		82EF3D1A1E824B8000CB4F75 /* MessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTextView.m; sourceTree = "<group>"; };
+		82EF3D1B1E824B8000CB4F75 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		82EF3D1C1E824B8000CB4F75 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		82EF3D1D1E824B8000CB4F75 /* TypingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingIndicatorView.h; sourceTree = "<group>"; };
+		82EF3D1E1E824B8000CB4F75 /* TypingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingIndicatorView.m; sourceTree = "<group>"; };
+		82EF3D291E824D4900CB4F75 /* NSString+LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LoremIpsum.h"; sourceTree = "<group>"; };
+		82EF3D2A1E824D4900CB4F75 /* NSString+LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LoremIpsum.m"; sourceTree = "<group>"; };
+		82EF3D2B1E824D4900CB4F75 /* SLKTextInputbarStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInputbarStub.h; sourceTree = "<group>"; };
+		82EF3D2C1E824D4900CB4F75 /* SLKTextInputbarStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextInputbarStub.m; sourceTree = "<group>"; };
+		82EF3D2D1E824D4900CB4F75 /* SLKTextViewControllerStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextViewControllerStub.h; sourceTree = "<group>"; };
+		82EF3D2E1E824D4A00CB4F75 /* SLKTextViewControllerStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewControllerStub.m; sourceTree = "<group>"; };
+		82EF3D2F1E824D4A00CB4F75 /* SLKTextViewStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextViewStub.h; sourceTree = "<group>"; };
+		82EF3D301E824D4A00CB4F75 /* SLKTextViewStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewStub.m; sourceTree = "<group>"; };
+		82EF3D351E824E1100CB4F75 /* LoremIpsum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoremIpsum.h; sourceTree = "<group>"; };
+		82EF3D361E824E1500CB4F75 /* LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoremIpsum.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EF3CB11E8238DC00CB4F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EF3CAB1E8238DC00CB4F75 = {
+			isa = PBXGroup;
+			children = (
+				82EF3D111E8248E600CB4F75 /* TwilioChatIntegration-Bridging-Header.h */,
+				82EF3CB61E8238DD00CB4F75 /* TwilioChatIntegration */,
+				82EF3CB51E8238DD00CB4F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EF3CB51E8238DD00CB4F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3CB41E8238DD00CB4F75 /* TwilioChatIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EF3CB61E8238DD00CB4F75 /* TwilioChatIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3D281E824D4900CB4F75 /* Stubs */,
+				82EF3D121E824B8000CB4F75 /* Messenger-Shared */,
+				82EF3CCA1E8239AB00CB4F75 /* Source */,
+				82EF3CB71E8238DD00CB4F75 /* AppDelegate.swift */,
+				82EF3CC91E82399A00CB4F75 /* Helper */,
+				82EF3CEB1E8239AF00CB4F75 /* Controller */,
+				82EF3CEC1E8239B800CB4F75 /* View */,
+				82EF3CBE1E8238DD00CB4F75 /* Assets.xcassets */,
+				82EF3CC31E8238DD00CB4F75 /* Info.plist */,
+			);
+			path = TwilioChatIntegration;
+			sourceTree = "<group>";
+		};
+		82EF3CC91E82399A00CB4F75 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3D0A1E8244EF00CB4F75 /* MessageViewController.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		82EF3CCA1E8239AB00CB4F75 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3CCB1E8239AB00CB4F75 /* SLKInputAccessoryView.h */,
+				82EF3CCC1E8239AB00CB4F75 /* SLKInputAccessoryView.m */,
+				82EF3CCD1E8239AB00CB4F75 /* SLKTextInput+Implementation.m */,
+				82EF3CCE1E8239AB00CB4F75 /* SLKTextInput.h */,
+				82EF3CCF1E8239AB00CB4F75 /* SLKTextInputbar.h */,
+				82EF3CD01E8239AB00CB4F75 /* SLKTextInputbar.m */,
+				82EF3CD11E8239AB00CB4F75 /* SLKTextView+SLKAdditions.h */,
+				82EF3CD21E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m */,
+				82EF3CD31E8239AB00CB4F75 /* SLKTextView.h */,
+				82EF3CD41E8239AB00CB4F75 /* SLKTextView.m */,
+				82EF3CD51E8239AB00CB4F75 /* SLKTextViewController.h */,
+				82EF3CD61E8239AB00CB4F75 /* SLKTextViewController.m */,
+				82EF3CD71E8239AB00CB4F75 /* SLKTypingIndicatorProtocol.h */,
+				82EF3CD81E8239AB00CB4F75 /* SLKTypingIndicatorView.h */,
+				82EF3CD91E8239AB00CB4F75 /* SLKTypingIndicatorView.m */,
+				82EF3CDA1E8239AB00CB4F75 /* SLKUIConstants.h */,
+				82EF3CDB1E8239AB00CB4F75 /* UIResponder+SLKAdditions.h */,
+				82EF3CDC1E8239AB00CB4F75 /* UIResponder+SLKAdditions.m */,
+				82EF3CDD1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.h */,
+				82EF3CDE1E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m */,
+				82EF3CDF1E8239AB00CB4F75 /* UIView+SLKAdditions.h */,
+				82EF3CE01E8239AB00CB4F75 /* UIView+SLKAdditions.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		82EF3CEB1E8239AF00CB4F75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3CB91E8238DD00CB4F75 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		82EF3CEC1E8239B800CB4F75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3CBB1E8238DD00CB4F75 /* Main.storyboard */,
+				82EF3CC01E8238DD00CB4F75 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		82EF3D121E824B8000CB4F75 /* Messenger-Shared */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3D151E824B8000CB4F75 /* Message.h */,
+				82EF3D161E824B8000CB4F75 /* Message.m */,
+				82EF3D171E824B8000CB4F75 /* MessageTableViewCell.h */,
+				82EF3D181E824B8000CB4F75 /* MessageTableViewCell.m */,
+				82EF3D191E824B8000CB4F75 /* MessageTextView.h */,
+				82EF3D1A1E824B8000CB4F75 /* MessageTextView.m */,
+				82EF3D1B1E824B8000CB4F75 /* MessageViewController.h */,
+				82EF3D1C1E824B8000CB4F75 /* MessageViewController.m */,
+				82EF3D1D1E824B8000CB4F75 /* TypingIndicatorView.h */,
+				82EF3D1E1E824B8000CB4F75 /* TypingIndicatorView.m */,
+			);
+			path = "Messenger-Shared";
+			sourceTree = "<group>";
+		};
+		82EF3D281E824D4900CB4F75 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				82EF3D351E824E1100CB4F75 /* LoremIpsum.h */,
+				82EF3D361E824E1500CB4F75 /* LoremIpsum.m */,
+				82EF3D291E824D4900CB4F75 /* NSString+LoremIpsum.h */,
+				82EF3D2A1E824D4900CB4F75 /* NSString+LoremIpsum.m */,
+				82EF3D2B1E824D4900CB4F75 /* SLKTextInputbarStub.h */,
+				82EF3D2C1E824D4900CB4F75 /* SLKTextInputbarStub.m */,
+				82EF3D2D1E824D4900CB4F75 /* SLKTextViewControllerStub.h */,
+				82EF3D2E1E824D4A00CB4F75 /* SLKTextViewControllerStub.m */,
+				82EF3D2F1E824D4A00CB4F75 /* SLKTextViewStub.h */,
+				82EF3D301E824D4A00CB4F75 /* SLKTextViewStub.m */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EF3CB31E8238DC00CB4F75 /* TwilioChatIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EF3CC61E8238DD00CB4F75 /* Build configuration list for PBXNativeTarget "TwilioChatIntegration" */;
+			buildPhases = (
+				82EF3CB01E8238DC00CB4F75 /* Sources */,
+				82EF3CB11E8238DC00CB4F75 /* Frameworks */,
+				82EF3CB21E8238DC00CB4F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwilioChatIntegration;
+			productName = TwilioChatIntegration;
+			productReference = 82EF3CB41E8238DD00CB4F75 /* TwilioChatIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EF3CAC1E8238DC00CB4F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pushpam Group";
+				TargetAttributes = {
+					82EF3CB31E8238DC00CB4F75 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82EF3CAF1E8238DC00CB4F75 /* Build configuration list for PBXProject "TwilioChatIntegration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EF3CAB1E8238DC00CB4F75;
+			productRefGroup = 82EF3CB51E8238DD00CB4F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EF3CB31E8238DC00CB4F75 /* TwilioChatIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EF3CB21E8238DC00CB4F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF3CF41E82430300CB4F75 /* SLKInputAccessoryView.h in Resources */,
+				82EF3CF51E82430300CB4F75 /* SLKInputAccessoryView.m in Resources */,
+				82EF3CF61E82430300CB4F75 /* SLKTextInput+Implementation.m in Resources */,
+				82EF3CF71E82430300CB4F75 /* SLKTextInput.h in Resources */,
+				82EF3CF81E82430300CB4F75 /* SLKTextInputbar.h in Resources */,
+				82EF3CF91E82430300CB4F75 /* SLKTextInputbar.m in Resources */,
+				82EF3CFA1E82430300CB4F75 /* SLKTextView+SLKAdditions.h in Resources */,
+				82EF3CFB1E82430300CB4F75 /* SLKTextView+SLKAdditions.m in Resources */,
+				82EF3CFC1E82430300CB4F75 /* SLKTextView.h in Resources */,
+				82EF3CFD1E82430300CB4F75 /* SLKTextView.m in Resources */,
+				82EF3CFE1E82430300CB4F75 /* SLKTextViewController.h in Resources */,
+				82EF3CFF1E82430300CB4F75 /* SLKTextViewController.m in Resources */,
+				82EF3D001E82430300CB4F75 /* SLKTypingIndicatorProtocol.h in Resources */,
+				82EF3D011E82430300CB4F75 /* SLKTypingIndicatorView.h in Resources */,
+				82EF3D021E82430300CB4F75 /* SLKTypingIndicatorView.m in Resources */,
+				82EF3D031E82430300CB4F75 /* SLKUIConstants.h in Resources */,
+				82EF3D041E82430300CB4F75 /* UIResponder+SLKAdditions.h in Resources */,
+				82EF3D051E82430300CB4F75 /* UIResponder+SLKAdditions.m in Resources */,
+				82EF3D061E82430300CB4F75 /* UIScrollView+SLKAdditions.h in Resources */,
+				82EF3D071E82430300CB4F75 /* UIScrollView+SLKAdditions.m in Resources */,
+				82EF3D081E82430300CB4F75 /* UIView+SLKAdditions.h in Resources */,
+				82EF3D091E82430300CB4F75 /* UIView+SLKAdditions.m in Resources */,
+				82EF3CC21E8238DD00CB4F75 /* LaunchScreen.storyboard in Resources */,
+				82EF3CBF1E8238DD00CB4F75 /* Assets.xcassets in Resources */,
+				82EF3CBD1E8238DD00CB4F75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EF3CB01E8238DC00CB4F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF3D381E82588800CB4F75 /* LoremIpsum.h in Sources */,
+				82EF3D391E82588800CB4F75 /* NSString+LoremIpsum.h in Sources */,
+				82EF3D3A1E82588800CB4F75 /* SLKTextInputbarStub.h in Sources */,
+				82EF3D3B1E82588800CB4F75 /* SLKTextViewControllerStub.h in Sources */,
+				82EF3D3C1E82588800CB4F75 /* SLKTextViewStub.h in Sources */,
+				82EF3D331E824D4A00CB4F75 /* SLKTextViewControllerStub.m in Sources */,
+				82EF3CE61E8239AB00CB4F75 /* SLKTextViewController.m in Sources */,
+				82EF3D221E824B8000CB4F75 /* MessageTextView.m in Sources */,
+				82EF3D101E8247D800CB4F75 /* MessageViewController.swift in Sources */,
+				82EF3D211E824B8000CB4F75 /* MessageTableViewCell.m in Sources */,
+				82EF3CEA1E8239AB00CB4F75 /* UIView+SLKAdditions.m in Sources */,
+				82EF3D201E824B8000CB4F75 /* Message.m in Sources */,
+				82EF3D311E824D4A00CB4F75 /* NSString+LoremIpsum.m in Sources */,
+				82EF3CE21E8239AB00CB4F75 /* SLKTextInput+Implementation.m in Sources */,
+				82EF3CE91E8239AB00CB4F75 /* UIScrollView+SLKAdditions.m in Sources */,
+				82EF3D371E824E1500CB4F75 /* LoremIpsum.m in Sources */,
+				82EF3CB81E8238DD00CB4F75 /* AppDelegate.swift in Sources */,
+				82EF3D321E824D4A00CB4F75 /* SLKTextInputbarStub.m in Sources */,
+				82EF3D241E824B8000CB4F75 /* TypingIndicatorView.m in Sources */,
+				82EF3CE11E8239AB00CB4F75 /* SLKInputAccessoryView.m in Sources */,
+				82EF3CE81E8239AB00CB4F75 /* UIResponder+SLKAdditions.m in Sources */,
+				82EF3D0F1E8247C000CB4F75 /* ViewController.swift in Sources */,
+				82EF3CE71E8239AB00CB4F75 /* SLKTypingIndicatorView.m in Sources */,
+				82EF3CE51E8239AB00CB4F75 /* SLKTextView.m in Sources */,
+				82EF3D341E824D4A00CB4F75 /* SLKTextViewStub.m in Sources */,
+				82EF3D231E824B8000CB4F75 /* MessageViewController.m in Sources */,
+				82EF3CE31E8239AB00CB4F75 /* SLKTextInputbar.m in Sources */,
+				82EF3CE41E8239AB00CB4F75 /* SLKTextView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82EF3CBB1E8238DD00CB4F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EF3CBC1E8238DD00CB4F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82EF3CC01E8238DD00CB4F75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EF3CC11E8238DD00CB4F75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EF3CC41E8238DD00CB4F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82EF3CC51E8238DD00CB4F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EF3CC71E8238DD00CB4F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = TwilioChatIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.Test.TwilioChatIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TwilioChatIntegration-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82EF3CC81E8238DD00CB4F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = TwilioChatIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.Test.TwilioChatIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TwilioChatIntegration-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EF3CAF1E8238DC00CB4F75 /* Build configuration list for PBXProject "TwilioChatIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF3CC41E8238DD00CB4F75 /* Debug */,
+				82EF3CC51E8238DD00CB4F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EF3CC61E8238DD00CB4F75 /* Build configuration list for PBXNativeTarget "TwilioChatIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF3CC71E8238DD00CB4F75 /* Debug */,
+				82EF3CC81E8238DD00CB4F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EF3CAC1E8238DC00CB4F75 /* Project object */;
+}
